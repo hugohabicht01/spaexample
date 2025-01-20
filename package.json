@@ -1,7 +1,6 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.15.3",
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 3333 --open",
@@ -47,11 +46,5 @@
   "resolutions": {
     "unplugin": "^2.1.2",
     "vite": "^6.0.7"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
-  },
-  "lint-staged": {
-    "*": "eslint --fix"
   }
 }
